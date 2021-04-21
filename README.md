@@ -8,13 +8,13 @@ conda create -n env python=3.6
 pip install coffea --upgrade
 conda install -c conda-forge xrootd
 
-git clone https://github.com/jeffkrupa/boostedhiggs.git -b ak1
+git clone https://github.com/DAZSLE/boostedhiggs.git
 
 cd boostedhiggs
 
 pip install --user --editable .
 ```
-## standalone test
+## standalone test on LPC
 ```
 cd boostedhiggs
 python debug_launcher.py
