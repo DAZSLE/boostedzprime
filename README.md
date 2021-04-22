@@ -5,18 +5,17 @@
 bash ~/nobackup/miniconda.sh -b -p miniconda/
 source miniconda/bin/activate
 conda create -n env python=3.6
+conda activate env
 pip install coffea --upgrade
 conda install -c conda-forge xrootd
 
-git clone https://github.com/DAZSLE/boostedhiggs.git
-
+git clone https://github.com/DAZSLE/boostedzprime.git
 cd boostedhiggs
-
 pip install --user --editable .
 ```
 ## standalone test on LPC
 ```
-cd boostedhiggs
+cd boostedzprime
 python debug_launcher.py
 ```
 ## for LPC job submission
