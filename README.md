@@ -9,15 +9,13 @@ conda activate env
 pip install coffea --upgrade
 conda install -c conda-forge xrootd
 
-git clone https://github.com/DAZSLE/boostedhiggs.git
-
+git clone https://github.com/DAZSLE/boostedzprime.git
 cd boostedhiggs
-
 pip install --user --editable .
 ```
 ## standalone test on LPC
 ```
-cd boostedhiggs
+cd boostedzprime
 python debug_launcher.py
 ```
 ## for LPC job submission
