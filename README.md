@@ -5,6 +5,7 @@
 bash ~/nobackup/miniconda.sh -b -p miniconda/
 source miniconda/bin/activate
 conda create -n env python=3.6
+conda activate env
 pip install coffea --upgrade
 conda install -c conda-forge xrootd
 
