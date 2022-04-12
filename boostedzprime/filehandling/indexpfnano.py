@@ -76,7 +76,8 @@ folders_to_index = [
 	"/store/user/lpcpfnano/jekrupa/v2_2/2018/ZJetsToQQ",
 
 	"/store/user/lpcpfnano/pharris/v2_2/2016/SingleTop",
-	"/store/user/lpcpfnano/pharris/v2_2/2016APV/SingleTop",
+	#"/store/user/lpcpfnano/pharris/v2_2/2016APV/SingleTop",
+	"/store/user/lpcpfnano/dryu/v2_2/2016APV/SingleTop",
 	"/store/user/lpcpfnano/pharris/v2_2/2017/SingleTop",
 	"/store/user/lpcpfnano/pharris/v2_2/2018/SingleTop",
 
